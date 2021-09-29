@@ -4,6 +4,12 @@ const app = express();
 
 app.get("/api/v1", (req, res) => {
   res.json([{
+    message: "Welcome to API-ene"
+  }]);
+})
+
+app.get("/api/v1", (req, res) => {
+  res.json([{
     message: "Testing Heroku deploy"
   }]);
 })
